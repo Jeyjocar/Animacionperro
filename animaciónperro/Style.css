@@ -1,0 +1,25 @@
+#canvas1 {
+    background-color: aqua;
+    border:5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 600px;
+    
+}
+
+.controles{
+    position: absolute;
+    z-index: 100;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.controles, select, option{
+    font: size 30px;
+    
+}
